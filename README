@@ -1,0 +1,51 @@
+################################################################
+||                                                            ||
+||                 StatsCan Livestock Report                  ||
+||                                                            ||
+||                 Author: Philip Wanczycki                   ||
+||                                                            ||
+||    This program allows the user to compute 3 reports       ||
+||    based on Statistics Canada's "Other livestock" census   ||
+||    for the years 2011 and 2016.                            ||
+||                                                            ||
+||    The first report shows a regional percentage            ||
+||    breakdown of farms that hosted animals of each type     ||
+||    in 2016.                                                ||
+||                                                            ||
+||    The second report shows the animal type                 ||
+||    percentage breakdown for Canada, as well as the         ||
+||    percentage change from 2011 to 2016.                    ||
+||                                                            ||
+||    The third report shows the sub-region within each       ||
+||    region that hosted the highest number of horses and     ||
+||    ponies in 2016.                                         ||
+||                                                            ||
+################################################################
+
+ --- FILES ---
+AscBehaviour.h
+CompareBehaviour.h
+Control.cc
+Control.h
+DescBehaviour.h
+farms.dat
+main.cc
+Makefile
+Map.h
+Record.cc
+Record.h
+ReportData.h
+ReportGenerator.cc
+ReportGenerator.h
+ReportGeneratorAnimal.cc
+ReportGeneratorAnimal.h
+ReportGeneratorHorse.cc
+ReportGeneratorHorse.h
+ReportGeneratorRegion.cc
+ReportGeneratorRegion.h
+View.cc
+View.h
+
+ --- INSTRUCTIONS ---
+make
+./sclr
